@@ -71,7 +71,12 @@
   </div>
 </nav>
     </header>
-    <%= yield %>
+    
+  <main>
+    <p class="notice"><%= notice %></p>
+  <%= yield %>
+  </main>
+  
     <footer>
       <div class="container mt-5">
         <div class="row">
